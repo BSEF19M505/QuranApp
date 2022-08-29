@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lvContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffe6e6e6"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/txtayah"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Ayah ID"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txtarabic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="Arabic"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txturdu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="Urdu"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lstView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/lvContainer"
+        android:layout_weight="8.5">
+
+    </ListView>
+</LinearLayout>
