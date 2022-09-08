@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:title="COMMUNICATION">
+    <menu>
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@drawable/ic_mail"
+            android:title="Mail" />
+        <item
+            android:id="@+id/nav_repository"
+            android:icon="@drawable/ic_code"
+            android:title="Repository" />
+    </menu>
+        </item>
+    </group>
+
+    <item android:title="SEARCH">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_parah"
+                    android:icon="@drawable/ic_search"
+                    android:title="Search PARAH" />
+                <item
+                    android:id="@+id/nav_surah"
+                    android:icon="@drawable/ic_search"
+                    android:title="Search SURAH" />
+                <item
+                    android:id="@+id/nav_ayah"
+                    android:icon="@drawable/ic_search"
+                    android:title="Search AYAH" />
+                <item
+                    android:id="@+id/nav_trans"
+                    android:icon="@drawable/ic_search"
+                    android:title="Search Translation" />
+            </group>
+        </menu>
+    </item>
+</menu>
+
+
+
+
+
+
+

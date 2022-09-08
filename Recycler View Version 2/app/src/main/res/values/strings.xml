@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">navigator3</string>
+    <string name="open">Openning</string>
+    <string name="close">Closing</string>
+
+    <string name="action_import_xlxs">Import .XLXS</string>
+    <string name="action_import_xls">Import .XLS</string>
+</resources>
